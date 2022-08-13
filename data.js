@@ -13,7 +13,7 @@ const allQuestionsAndAnswers = [
     },
     {
         question: "How and where we can add css and js in html file",
-        answer: "We can add/link css to a html file using <link href="style.css"> (if it is a external css file) in head section and also we can write inline css as well. Javascript we can write/link in head section as well as in end of the body section. Best place is in end of the body section because html also load/parse line by line from top to bottom. So if the javascript is in header section it will take some time to load the JS user may has to wait little bit to see the UI, other thing is html is not fully loaded when the JS code is executing. So can give errors"
+        answer: "We can add/link css to a html file using <link href='style.css'> (if it is a external css file) in head section and also we can write inline css as well. Javascript we can write/link in head section as well as in end of the body section. Best place is in end of the body section because html also load/parse line by line from top to bottom. So if the javascript is in header section it will take some time to load the JS user may has to wait little bit to see the UI, other thing is html is not fully loaded when the JS code is executing. So can give errors"
     }   
 ]
   
