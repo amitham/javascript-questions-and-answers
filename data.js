@@ -20,8 +20,16 @@ const allQuestionsAndAnswers = [
         answer: "Double equal: compares the values, Tripple equal: compares the values and the value type as well(data type)"
     },
     {
-        question: "6. what is pure function in javascript",
+        question: "6. What is pure function in javascript",
         answer: "Pure function is function which take inputs and out puts some data but out put is only depend on the inputs, no side effects"
+    },
+    {
+        question: "7. What is Higher order function in javascript",
+        answer: "Function that takes a function as an argument or/and output a function"
+    },
+    {
+        question: "8. What is the usage of a higher order function",
+        answer: "We can have number of functions which take care of only one logic, then combine all those function to have a complex logic. as a example we can use JS map function (which is a higher order function) to write complex logic with clean and readable code"
     }
 ]
   
