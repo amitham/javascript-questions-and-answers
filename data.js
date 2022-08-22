@@ -18,6 +18,10 @@ const allQuestionsAndAnswers = [
     {
         question: "5. What is the difference between double equal and triple equal in JS",
         answer: "Double equal: compares the values, Tripple equal: compares the values and the value type as well(data type)"
-    } 
+    },
+    {
+        question: "6. what is pure function in javascript",
+        answer: "Pure function is function which take inputs and out puts some data but out put is only depend on the inputs, no side effects"
+    }
 ]
   
