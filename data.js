@@ -30,6 +30,10 @@ const allQuestionsAndAnswers = [
     {
         question: "8. What is the usage of a higher order function",
         answer: "We can have number of functions which take care of only one logic, then combine all those function to have a complex logic. as a example we can use JS map function (which is a higher order function) to write complex logic with clean and readable code"
+    },
+    {
+        question: "9. What is npm and npx",
+        answer: "NPM is a package manager which we use to install/uninstall/update javascript packages in our machine, NPX is a package executer which can use to execute packages direct without installing in them"
     }
 ]
   
