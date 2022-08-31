@@ -34,6 +34,10 @@ const allQuestionsAndAnswers = [
     {
         question: "9. What is npm and npx",
         answer: "NPM is a package manager which we use to install/uninstall/update javascript packages in our machine, NPX is a package executer which can use to execute packages direct without installing in them"
+    },
+    {
+        question: "10. What is the difference between forEach and map in JavaScript and Which one is faster?",
+        answer: "ForEach and Map both iterate through the list but map will create a copy of the iterating element(will work with it) and last it will return a new array but forEach is not, it will loop through the array and mostly work with side effect. So, ForEach is faster than the Map"
     }
 ]
   
