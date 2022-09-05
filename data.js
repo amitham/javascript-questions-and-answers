@@ -38,6 +38,14 @@ const allQuestionsAndAnswers = [
     {
         question: "10. What is the difference between forEach and map in JavaScript and Which one is faster?",
         answer: "ForEach and Map both iterate through the list but map will create a copy of the iterating element(will work with it) and last it will return a new array but forEach is not, it will loop through the array and mostly work with side effect. So, ForEach is faster than the Map"
+    },
+    {
+        question: "11. What is the usage of having "Default" in export module?",
+        answer: "When we import modules we have the freedom to use any name for the module."
+    },
+    {
+        question: "12. What is module design pattern in JavaScript and what it resolv?",
+        answer: "Module pattern is a way to split very large files/codes into small re usable pieces, then can import it any where and use. Introduce in ES2015"
     }
 ]
   
