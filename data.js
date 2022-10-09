@@ -9,7 +9,7 @@ const allQuestionsAndAnswers = [
     },
     {
         question: "3. Explain imutability and mutability with details",
-        answer: "Immutable object is an object which we cannot modify the state of it after it is created. mutable object is otherway around we can change the state evern after we create the object. In javascript mutability is bad, because it can leads to errors in code and give hrad time to track it down. So, in order to get this done we can use higher order functions like map,reduce,filter,etc to create new copy of those data/objects. But this can cost us time and space. But we can use persistent data structures for efficient immutability. (there are some libraries already implemented using persistent data structures. ex: immutable.js)"
+        answer: "Immutable object is an object which we cannot modify the state of it after it is created. <br/> mutable object is otherway around we can change the state evern after we create the object. In javascript mutability is bad, because it can leads to errors in code and give hrad time to track it down. So, in order to get this done we can use higher order functions like map,reduce,filter,etc to create new copy of those data/objects. But this can cost us time and space. But we can use persistent data structures for efficient immutability. (there are some libraries already implemented using persistent data structures. ex: immutable.js)"
     },
     {
         question: "4. How and where we can add css and js in html file",
@@ -33,7 +33,7 @@ const allQuestionsAndAnswers = [
     },
     {
         question: "9. What is npm and npx",
-        answer: "NPM is a package manager which we use to install/uninstall/update javascript packages in our machine, NPX is a package executer which can use to execute packages direct without installing in them"
+        answer: "NPM is a package manager which we use to install/uninstall/update javascript packages in our machine, <br/> NPX is a package executer which can use to execute packages direct without installing in them"
     },
     {
         question: "10. What is the difference between forEach and map in JavaScript and Which one is faster?",
@@ -46,6 +46,13 @@ const allQuestionsAndAnswers = [
     {
         question: "12. What is module design pattern in JavaScript and what it resolv?",
         answer: "Module pattern is a way to split very large files/codes into small re usable pieces, then can import it any where and use. Introduce in ES2015"
+    },
+    {
+        question: "13. What is cookies, local, session storage",
+        answer: "Cookies: Cookies can store in the machine and send it in every server request and can only hold around 4kb of data. we need to setup the expired date for it. it is availble in any window of the browser<br/>" +
+                "Locat Storage: Never expired until we delete it manually or by code, can store around 10mb and available in any window of the browser, not send in server request</br>" +
+                "Session storage: Availble on only selected browser tab, can store around 5mb and vanishing the data soon after the tab close <br/><br/>" +
+                "<img src='./images/browser_storages.png'>"
     }
 ]
   

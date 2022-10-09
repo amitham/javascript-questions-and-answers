@@ -28,7 +28,10 @@ function createHtmlStructure(questionText, answerText) {
     const answer = document.createElement("div");
     answer.className = "answer";
     const answerSpan = document.createElement("span");
-    answerSpan.innerText = answerText;
+
+   
+    answerSpan.innerHTML = answerText
+    //answerSpan.innerText = answerText;
     answer.appendChild(answerSpan);
 
     question_answer.appendChild(answer);
