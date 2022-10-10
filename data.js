@@ -53,6 +53,10 @@ const allQuestionsAndAnswers = [
                 "Locat Storage: Never expired until we delete it manually or by code, can store around 10mb and available in any window of the browser, not send in server request</br>" +
                 "Session storage: Availble on only selected browser tab, can store around 5mb and vanishing the data soon after the tab close <br/><br/>" +
                 "<img src='./images/browser_storages.png'>"
+    },
+    {
+        question: "14. Does JavaScript support automatic type conversion?",
+        answer: "Yes, JavaScript is dynamic type language. value types are checking when the code is runing(runtime)"
     }
 ]
   
